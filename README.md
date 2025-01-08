@@ -41,17 +41,16 @@ which awk sed uniq sort head
 
 ## ⚙️ Usage
 
-To run the Nginx Log Analyser:
+Make the script executable:
+```bash
+chmod +x analyze.sh
+```
+Run the script by providing the path to your Nginx log file:
 
 ```bash
 ./analyse.sh example_nginx_log
 ```
 
-### 📚 Example
-
-```bash
-$ ./analyse.sh access.log
-```
 
 **Sample Output:**
 ```text
