@@ -32,6 +32,10 @@ Ensure you have the following:
 ```bash
 command -v awk sed uniq sort head
 ```
+OR
+```bash
+which awk sed uniq sort head
+```
 
 ---
 
